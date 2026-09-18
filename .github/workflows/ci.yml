@@ -1,9 +1,7 @@
 name: My First CI Pipeline
 
 on:
-  push:
-   branch:
-    main:
+  workflow_dispatch: 
       
 jobs:
   build:
